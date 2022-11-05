@@ -18,7 +18,7 @@ export default class Test extends Component {
   };
 
   render() {
-    if (this.state.count == 5) {
+    if (this.state.count === 5) {
       throw new Error("An Error Occured");
     } else {
       return (

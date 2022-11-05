@@ -12,6 +12,8 @@ function CountReducer(initialState = 0) {
         return 0;
       case "setValue":
         return setValue(action.payload);
+        default:
+        return initialState;
     }
   }
   function setValue(value) {
