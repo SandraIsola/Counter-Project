@@ -25,6 +25,8 @@ function App() {
     <Link className='ind-link' to="/Counter">Custom Hook</Link>
     <Link className='ind-link' to="/useReducerCounter">Use Reducer </Link>
     <Link className='ind-link' to="/testErrorBoundary">Test Error Boundary</Link>
+    <Link className='ind-link' to="/useReducerCounter">Use Reducer </Link>
+    <Link className='ind-link' to="*">Error Page</Link>
     </div>
     <Routes>
     <Route path='/' element={ <Home />} />
