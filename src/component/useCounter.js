@@ -3,6 +3,7 @@ import  { useEffect, useState } from 'react';
 const useCounter = () => {
   const key = "CounterApp:count";
 
+  // TO update the local storage
   const [count, setCount] = useState(() => {
   let data = window.localStorage.getItem(key);
   if (data === null) {
